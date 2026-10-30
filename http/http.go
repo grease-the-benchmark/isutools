@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	isuhttpgen "github.com/mazrean/isucon-go-tools/v2/http/internal/generate"
-	"github.com/mazrean/isucon-go-tools/v2/internal/benchmark"
-	"github.com/mazrean/isucon-go-tools/v2/internal/config"
+	isuhttpgen "github.com/grease-the-benchmark/isutools/v2/http/internal/generate"
+	"github.com/grease-the-benchmark/isutools/v2/internal/benchmark"
+	"github.com/grease-the-benchmark/isutools/v2/internal/config"
 )
 
 func ListenAndServe(addr string, handler http.Handler) error {

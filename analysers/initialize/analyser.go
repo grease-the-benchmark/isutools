@@ -8,13 +8,13 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/mazrean/isucon-go-tools/v2/pkg/analyze"
-	"github.com/mazrean/isucon-go-tools/v2/pkg/suggest"
+	"github.com/grease-the-benchmark/isutools/v2/pkg/analyze"
+	"github.com/grease-the-benchmark/isutools/v2/pkg/suggest"
 	"golang.org/x/tools/go/analysis"
 )
 
 const (
-	isutoolsPkgName          = "github.com/mazrean/isucon-go-tools/v2"
+	isutoolsPkgName          = "github.com/grease-the-benchmark/isutools/v2"
 	isutoolsPkgDefaultIdent  = "isutools"
 	initializeBeforeFuncName = "BeforeInitialize"
 	initializeAfterFuncName  = "AfterInitialize"

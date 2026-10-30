@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/mazrean/isucon-go-tools/v2/internal/config"
+	"github.com/grease-the-benchmark/isutools/v2/internal/config"
 )
 
 func init() {

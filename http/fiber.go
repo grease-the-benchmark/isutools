@@ -11,8 +11,8 @@ import (
 
 	"github.com/goccy/go-json"
 	"github.com/gofiber/fiber/v2"
-	"github.com/mazrean/isucon-go-tools/v2/internal/benchmark"
-	"github.com/mazrean/isucon-go-tools/v2/internal/config"
+	"github.com/grease-the-benchmark/isutools/v2/internal/benchmark"
+	"github.com/grease-the-benchmark/isutools/v2/internal/config"
 )
 
 func FiberNew(conf ...fiber.Config) *fiber.App {

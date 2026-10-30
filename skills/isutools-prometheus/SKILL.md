@@ -5,7 +5,7 @@ description: Query isutools (isucon-go-tools) metrics via PromQL on a Prometheus
 
 # Querying isutools Metrics via Prometheus
 
-PromQL reference for metrics emitted by [isucon-go-tools](https://github.com/mazrean/isucon-go-tools) v2. Assume a Prometheus server is already scraping the application — this skill only covers **querying**, not setting up the exporter.
+PromQL reference for metrics emitted by [isucon-go-tools](https://github.com/grease-the-benchmark/isutools) v2. Assume a Prometheus server is already scraping the application — this skill only covers **querying**, not setting up the exporter.
 
 All metrics use the `isutools` namespace. Subsystems: `api`, `db`, `cache`, `locker`, `pool`, `queue`, `benchmark`.
 

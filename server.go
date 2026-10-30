@@ -6,11 +6,11 @@ import (
 
 	_ "net/http/pprof"
 
-	isudb "github.com/mazrean/isucon-go-tools/v2/db"
-	"github.com/mazrean/isucon-go-tools/v2/internal/benchmark"
-	"github.com/mazrean/isucon-go-tools/v2/internal/config"
-	_ "github.com/mazrean/isucon-go-tools/v2/internal/log"
-	"github.com/mazrean/isucon-go-tools/v2/profiler"
+	isudb "github.com/grease-the-benchmark/isutools/v2/db"
+	"github.com/grease-the-benchmark/isutools/v2/internal/benchmark"
+	"github.com/grease-the-benchmark/isutools/v2/internal/config"
+	_ "github.com/grease-the-benchmark/isutools/v2/internal/log"
+	"github.com/grease-the-benchmark/isutools/v2/profiler"
 )
 
 func init() {
