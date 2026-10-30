@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	isucache "github.com/mazrean/isucon-go-tools/v2/cache"
-	isulocker "github.com/mazrean/isucon-go-tools/v2/locker"
+	isucache "github.com/grease-the-benchmark/isutools/v2/cache"
+	isulocker "github.com/grease-the-benchmark/isutools/v2/locker"
 	"github.com/stretchr/testify/assert"
 )
 

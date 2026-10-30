@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mazrean/isucon-go-tools/v2/internal/benchmark"
-	"github.com/mazrean/isucon-go-tools/v2/internal/config"
+	"github.com/grease-the-benchmark/isutools/v2/internal/benchmark"
+	"github.com/grease-the-benchmark/isutools/v2/internal/config"
 )
 
 func GinNew(engine *gin.Engine) *gin.Engine {

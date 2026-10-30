@@ -3,19 +3,19 @@ package embed
 import (
 	"reflect"
 
-	"github.com/mazrean/isucon-go-tools/v2/pkg/suggest"
+	"github.com/grease-the-benchmark/isutools/v2/pkg/suggest"
 	"golang.org/x/tools/go/analysis"
 )
 
 const (
-	pkgName = "github.com/mazrean/isucon-go-tools/v2"
+	pkgName = "github.com/grease-the-benchmark/isutools/v2"
 )
 
 var (
 	importPkgs []*suggest.ImportInfo
 	Analyzer   = &analysis.Analyzer{
 		Name:       "embed",
-		Doc:        "import github.com/mazrean/isucon-go-tools/v2 package",
+		Doc:        "import github.com/grease-the-benchmark/isutools/v2 package",
 		Run:        run,
 		ResultType: reflect.TypeOf(importPkgs),
 	}
